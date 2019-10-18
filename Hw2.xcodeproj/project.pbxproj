@@ -47,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7D7CBB622357E7BE00C5332A /* Hw2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Hw2.entitlements; sourceTree = "<group>"; };
 		7DEDC46F2357008B009734D0 /* Hw2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hw2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DEDC4722357008B009734D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7DEDC4742357008B009734D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -123,6 +124,7 @@
 		7DEDC4712357008B009734D0 /* Hw2 */ = {
 			isa = PBXGroup;
 			children = (
+				7D7CBB622357E7BE00C5332A /* Hw2.entitlements */,
 				7DEDC4722357008B009734D0 /* AppDelegate.swift */,
 				7DEDC4742357008B009734D0 /* SceneDelegate.swift */,
 				7DEDC4762357008B009734D0 /* ContentView.swift */,
@@ -482,7 +484,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Hw2/Hw2.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Hw2/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Hw2/Info.plist;
@@ -492,6 +497,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.appcoda.Hw2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -501,7 +507,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Hw2/Hw2.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Hw2/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Hw2/Info.plist;
@@ -511,6 +520,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.appcoda.Hw2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
